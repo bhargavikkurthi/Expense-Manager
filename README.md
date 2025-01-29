@@ -43,26 +43,25 @@ The application follows a structured workflow:
 
 ## API Endpoints
 
-
 ### User Endpoints
 
-| Method        | Endpoint        | Description                       |
-| ------------- |:----------------|:----------------------------------|
-| GET           | /users/allUsers | Retrieves the list of all users.  |
-| GET           | /users/{id}     | Fetches a user by their ID.       |
-| POST          | /users/save     | Saves a new user to the database. |
+| Method       | Endpoint        | Description                       |
+| ------------ |:----------------|:----------------------------------|
+| GET          | /users/allUsers | Retrieves the list of all users.  |
+| GET          | /users/{id}     | Fetches a user by their ID.       |
+| POST         | /users/save     | Saves a new user to the database. |
 
 
 ### Income Endpoints
 
-| Method        | Endpoint               | Description                              |
-| ------------- |:-----------------------|:-----------------------------------------|
-| GET           | /incomes/{incomeid}    | Retrieves income by its ID               |
-| POST          | /incomes/save/{userId} | Registers new income for a given userId. |
+| Method       | Endpoint               | Description                              |
+| ------------ |:-----------------------|:-----------------------------------------|
+| GET          | /incomes/{incomeid}    | Retrieves income by its ID               |
+| POST         | /incomes/save/{userId} | Registers new income for a given userId. |
 
 
 ### Expense Endpoints
 
-| Method        | Endpoint                  | Description                                   |
-| ------------- |:--------------------------|:----------------------------------------------|
-|POST           | /expenses/save/{incomeId} | Creates a new expense for the given incomeId. |
+| Method       | Endpoint                  | Description                                   |
+| ------------ |:--------------------------|:----------------------------------------------|
+|POST          | /expenses/save/{incomeId} | Creates a new expense for the given incomeId. |
