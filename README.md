@@ -2,6 +2,8 @@
 
 The Expense Manager Application is designed to help organizations track employee income and expenses efficiently. Users can input their income and expenses, categorize them, and manage their financial data effortlessly. This application is built using Spring Boot, Hibernate, and MySQL, providing robust CRUD operations for expense tracking.
 
+---
+
 ## Features
 
 * User Management: Create and manage users.
@@ -9,16 +11,15 @@ The Expense Manager Application is designed to help organizations track employee
 * Income & Expense Tracking: Add, view, and filter income and expenses.
 
 * Filtering Capabilities:
-
-1. Filter income and expenses by Day, Month, and Year.
-
-2. Filter by Income Type (Bonus, Salary, Consultancy, etc.).
-
-3. Filter by Expense Type (Food, Education, Bills, Travel, Miscellaneous, etc.).
+  1. Filter income and expenses by Day, Month, and Year.
+  2. Filter by Income Type (Bonus, Salary, Consultancy, etc.).
+  3. Filter by Expense Type (Food, Education, Bills, Travel, Miscellaneous, etc.).
 
 * Data Persistence: Uses MySQL for data storage.
 
 * REST API Endpoints for seamless integration.
+
+---
 
 ## Tech Stack
 
@@ -30,8 +31,10 @@ The Expense Manager Application is designed to help organizations track employee
 
 * Postman (For API testing)
 
+---
+
 ## Flowchart
 
-![alt text][logo]
+The application follows a structured workflow:
 
-[logo]: Flow Chart.png
+1. Register User → 2. Add Income → 3. Add Expense → 4. Manage Expense
