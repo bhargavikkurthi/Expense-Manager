@@ -47,7 +47,7 @@ The application follows a structured workflow:
 ### User Endpoints
 
 | Method        | Endpoint        | Description                       |
-| ------------- |:---------------:| ---------------------------------:|
+| ------------- |:---------------:|:---------------------------------:|
 | GET           | /users/allUsers | Retrieves the list of all users.  |
 | GET           | /users/{id}     | Fetches a user by their ID.       |
 | POST          | /users/save     | Saves a new user to the database. |
@@ -56,7 +56,7 @@ The application follows a structured workflow:
 ### Income Endpoints
 
 | Method        | Endpoint               | Description                              |
-| ------------- |:----------------------:| ----------------------------------------:|
+| ------------- |:----------------------:|:----------------------------------------:|
 | GET           | /incomes/{incomeid}    | Retrieves income by its ID               |
 | POST          | /incomes/save/{userId} | Registers new income for a given userId. |
 
@@ -64,5 +64,5 @@ The application follows a structured workflow:
 ### Expense Endpoints
 
 | Method        | Endpoint                  | Description                                   |
-| ------------- |:-------------------------:| ---------------------------------------------:|
+| ------------- |:-------------------------:|:---------------------------------------------:|
 |POST           | /expenses/save/{incomeId} | Creates a new expense for the given incomeId. |
