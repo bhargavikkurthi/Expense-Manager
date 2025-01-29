@@ -64,5 +64,5 @@ The application follows a structured workflow:
 ### Expense Endpoints
 
 | Method        | Endpoint                  | Description                                   |
-| ------------- |:--------------------------|----------------------------------------------:|
+| ------------- |:--------------------------|:----------------------------------------------|
 |POST           | /expenses/save/{incomeId} | Creates a new expense for the given incomeId. |
