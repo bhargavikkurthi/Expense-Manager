@@ -56,7 +56,7 @@ The application follows a structured workflow:
 ### Income Endpoints
 
 | Method        | Endpoint               | Description                              |
-| ------------- |:----------------------:|:----------------------------------------:|
+| ------------- |:-----------------------|:-----------------------------------------|
 | GET           | /incomes/{incomeid}    | Retrieves income by its ID               |
 | POST          | /incomes/save/{userId} | Registers new income for a given userId. |
 
