@@ -10,11 +10,11 @@ The Expense Manager Application is designed to help organizations track employee
 
 * Filtering Capabilities:
 
-+ Filter income and expenses by Day, Month, and Year.
+1. Filter income and expenses by Day, Month, and Year.
 
-+ Filter by Income Type (Bonus, Salary, Consultancy, etc.).
+2. Filter by Income Type (Bonus, Salary, Consultancy, etc.).
 
-+ Filter by Expense Type (Food, Education, Bills, Travel, Miscellaneous, etc.).
+3. Filter by Expense Type (Food, Education, Bills, Travel, Miscellaneous, etc.).
 
 * Data Persistence: Uses MySQL for data storage.
 
@@ -34,4 +34,4 @@ The Expense Manager Application is designed to help organizations track employee
 
 ![alt text][logo]
 
-[logo]: 
+[logo]: Flow Chart.png
