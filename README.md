@@ -2,7 +2,9 @@
 
 The Expense Manager Application is designed to help organizations track employee income and expenses efficiently. Users can input their income and expenses, categorize them, and manage their financial data effortlessly. This application is built using Spring Boot, Hibernate, and MySQL, providing robust CRUD operations for expense tracking.
 
+
 ---
+
 
 ## Features
 
@@ -19,7 +21,9 @@ The Expense Manager Application is designed to help organizations track employee
 
 * REST API Endpoints for seamless integration.
 
+
 ---
+
 
 ## Tech Stack
 
@@ -31,7 +35,9 @@ The Expense Manager Application is designed to help organizations track employee
 
 * Postman (For API testing)
 
+
 ---
+
 
 ## Flowchart
 
@@ -39,29 +45,31 @@ The application follows a structured workflow:
 
 1. Register User → 2. Add Income → 3. Add Expense → 4. Manage Expense
 
+
 ---
+
 
 ## API Endpoints
 
 ### User Endpoints
 
-| Method       | Endpoint        | Description                       |
-| ------------ |:----------------|:----------------------------------|
-| GET          | /users/allUsers | Retrieves the list of all users.  |
-| GET          | /users/{id}     | Fetches a user by their ID.       |
-| POST         | /users/save     | Saves a new user to the database. |
+| Method       | Endpoint        | Description                      |
+| ------------ |:----------------|:---------------------------------|
+| GET          | /users/allUsers | Retrieves the list of all users  |
+| GET          | /users/{id}     | Fetches a user by their ID       |
+| POST         | /users/save     | Saves a new user to the database |
 
 
 ### Income Endpoints
 
-| Method       | Endpoint               | Description                              |
-| ------------ |:-----------------------|:-----------------------------------------|
-| GET          | /incomes/{incomeid}    | Retrieves income by its ID               |
-| POST         | /incomes/save/{userId} | Registers new income for a given userId. |
+| Method       | Endpoint               | Description                             |
+| ------------ |:-----------------------|:----------------------------------------|
+| GET          | /incomes/{incomeid}    | Retrieves income by its ID              |
+| POST         | /incomes/save/{userId} | Registers new income for a given userId |
 
 
 ### Expense Endpoints
 
-| Method       | Endpoint                  | Description                                   |
-| ------------ |:--------------------------|:----------------------------------------------|
-|POST          | /expenses/save/{incomeId} | Creates a new expense for the given incomeId. |
+| Method       | Endpoint                  | Description                                  |
+| ------------ |:--------------------------|:---------------------------------------------|
+|POST          | /expenses/save/{incomeId} | Creates a new expense for the given incomeId |
