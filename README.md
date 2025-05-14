@@ -27,7 +27,9 @@ The Expense Manager Application is designed to help organizations track employee
 
 ## Tech Stack
 
-* Spring Boot 2.7.7
+* Java 21
+
+* Spring Boot 3.2.5
 
 * Hibernate (JPA for ORM)
 
