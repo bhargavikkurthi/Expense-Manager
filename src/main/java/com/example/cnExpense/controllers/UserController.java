@@ -6,6 +6,8 @@ import com.example.cnExpense.entities.IncomeType;
 import com.example.cnExpense.entities.User;
 import com.example.cnExpense.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -41,6 +43,15 @@ public class UserController {
     public User findUser(@RequestBody User newUser){
         return userService.findUser(newUser);
     }
+
+//    @PostMapping("/find")
+//    public ResponseEntity<User> findUser(@RequestBody User newUser) {
+//        User user = userService.findUser(newUser);
+//        if (user == null) {
+//            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+//        }
+//        return ResponseEntity.ok(user);
+//    }
 
     @GetMapping("/filteredUserListByCalendar")
     public List<User> filteredUserListByCalendar(@RequestParam(value = "day", required = false) String day,
